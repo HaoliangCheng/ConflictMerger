@@ -1,0 +1,61 @@
+# Project specific directories
+dataset/
+resolutions/
+resolutions_*/
+ase-merge/
+training_data_*/
+ase-merge/
+token.txt
+merge_resolver.py
+conflictmerger.ipynb
+# Large data files
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Environment variables
+.env
+.venv
+venv/
+ENV/ 
