@@ -6,7 +6,7 @@ ase-merge/
 training_data_*/
 ase-merge/
 token.txt
-conflictmerger.ipynb
+
 # Large data files
 *.json
 
