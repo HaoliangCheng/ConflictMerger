@@ -366,6 +366,19 @@ Each conflict scenario contains:
 - **Merged version** (`merged.extension`): Expected resolution
 - **Conflict version** (`M.extension`): File with conflict markers
 
+### Dataset Source
+
+The training data is based on the **"Dataset of merge conflicts collected from GitHub repositories"** published on Zenodo:
+
+> **Miraldo, V. C. (2020).** Dataset of merge conflicts collected from GitHub repositories (Version v1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3751038
+
+This dataset contains real-world merge conflicts from popular GitHub repositories, where:
+- **O** represents the common ancestor file
+- **A** and **B** represent the two conflicting versions
+- **M** represents the actual resolution committed by developers
+
+The conflicts were collected from repositories with large numbers of forks, commits, and contributors, ensuring high-quality, real-world conflict resolution patterns.
+
 ### Supported Languages
 
 | Language | Extension | Dataset Size | Status |
@@ -413,10 +426,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - LoRA fine-tuning powered by [PEFT](https://github.com/huggingface/peft)
 - Training infrastructure from [TRL](https://github.com/huggingface/trl)
 - Inspired by research in automated program repair and code generation
-
-
-
-
+- Dataset source: **"Dataset of merge conflicts collected from GitHub repositories"** published on Zenodo:
+  > **Miraldo, V. C. (2020).** Dataset of merge conflicts collected from GitHub repositories (Version v1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.3751038
 
 ## Future Work
 
