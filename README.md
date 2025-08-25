@@ -330,29 +330,7 @@ export HF_HOME=/path/to/cache
 export TOKENIZERS_PARALLELISM=false
 ```
 
-## Model Performance
 
-### Evaluation Metrics
-
-- **Similarity Score**: Cosine similarity between generated and expected resolution
-- **Inference Time**: Time taken to generate resolution
-- **Resolution Quality**: Syntactic correctness and logical coherence
-- **Memory Usage**: GPU/CPU memory consumption during inference
-
-### Supported Models
-
-- **Qwen/Qwen2.5-Coder-0.5B** (Primary model, 500M parameters)
-- **Qwen/Qwen2.5-Coder-1.5B** (Larger variant, better quality)
-- **Custom fine-tuned variants** with LoRA adapters
-- **Extensible** to other causal language models (GPT, CodeLlama, etc.)
-
-### Performance Benchmarks
-
-| Model | Avg Similarity | Avg Time (s) | Memory (GB) |
-|-------|---------------|--------------|-------------|
-| Base Qwen-0.5B | 0.75 | 1.2 | 2.5 |
-| Fine-tuned Qwen-0.5B | 0.82 | 1.3 | 2.8 |
-| Fine-tuned Qwen-1.5B | 0.87 | 2.1 | 6.2 |
 
 ## Dataset
 
